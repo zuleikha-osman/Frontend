@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* declare module "*.css"; */
 
 *,
 *::before,
@@ -100,3 +101,5 @@ body,
     @apply bg-background text-foreground;
   }
 }
+
+

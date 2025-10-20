@@ -46,6 +46,7 @@ const Products = () => {
   if (isError || !products) return <div className="text-center text-red-500 py-4">Failed to fetch products</div>
 
   return (
+    
     <div className="mx-auto pb-5 w-full">
       {/* SEARCH BAR */}
       <div className="mb-6">
